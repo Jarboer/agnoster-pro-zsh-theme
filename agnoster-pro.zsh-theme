@@ -256,8 +256,10 @@ prompt_aws() {
 
 # Newline: printf \n
 prompt_newline() {
-	printf '\n'
-	CURRENT_BG=NONE
+	# printf '\n'
+  prompt_segment none none "\n"
+
+	# CURRENT_BG=NONE
 }
 
 ## Main prompt
