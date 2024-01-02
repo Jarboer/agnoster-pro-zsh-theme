@@ -241,7 +241,7 @@ prompt_status() {
   [[ -n "$symbols" ]] && prompt_segment black default "$symbols"
 }
 
-#AWS Profile:
+# AWS Profile:
 # - display current AWS_PROFILE name
 # - displays yellow on red if profile name contains 'production' or
 #   ends in '-prod'
@@ -252,6 +252,12 @@ prompt_aws() {
     *-prod|*production*) prompt_segment red yellow  "AWS: ${AWS_PROFILE:gs/%/%%}" ;;
     *) prompt_segment green black "AWS: ${AWS_PROFILE:gs/%/%%}" ;;
   esac
+}
+
+# Newline: printf \n
+prompt_newline() {
+	printf '\n'
+	CURRENT_BG=NONE
 }
 
 ## Main prompt
@@ -265,6 +271,7 @@ build_prompt() {
   prompt_git
   prompt_bzr
   prompt_hg
+  prompt_newline
   prompt_end
 }
 
