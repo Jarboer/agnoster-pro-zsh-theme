@@ -16,6 +16,14 @@ To test if your terminal and font support it, check that all the necessary chara
 
 ![Character Example](https://gist.githubusercontent.com/agnoster/3712874/raw/characters.png)
 
+
+## How to set as a custom theme
+
+- Download it (use git clone)
+- Copy it here: "$HOME/.oh-my-zsh/custom/themes/"
+- Set the custom theme in your zshrc file: `nano ~/.zshrc`
+- Reload omz: `omz reload`
+
 ## What does it show?
 
 - If the previous command failed (✘)
