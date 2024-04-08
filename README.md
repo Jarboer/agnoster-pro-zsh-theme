@@ -20,7 +20,7 @@ To test if your terminal and font support it, check that all the necessary chara
 ## How to set as a custom theme
 
 - Download it (use git clone)
-- Copy it here: "$HOME/.oh-my-zsh/custom/themes/"
+- Copy it here: `$HOME/.oh-my-zsh/custom/themes/` or `~/.oh-my-zsh/custom/themes`
 - Set the custom theme in your zshrc file: `nano ~/.zshrc`
 - Reload omz: `omz reload`
 
