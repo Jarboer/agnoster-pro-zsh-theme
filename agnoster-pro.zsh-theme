@@ -55,8 +55,9 @@ esac
   # Do not change this! Do not make it '\u2b80'; that is the old, wrong code point.
   SEGMENT_SEPARATOR=$'\ue0b0'
 
-  PROMPT_CHAR="⚡"
+  PROMPT_CHAR=""
 
+  # Link: https://github.com/robwierzbowski/charged-zsh-theme/blob/master/charged.zsh-theme
   # More symbols to choose from:
   # ☀ ✹ ☄ ♆ ♀ ♁ ♐ ♇ ♈ ♉ ♚ ♛ ♜ ♝ ♞ ♟ ♠ ♣ ⚢ ⚲ ⚳ ⚴ ⚥ ⚤ ⚦ ⚒ ⚑ ⚐ ♺ ♻ ⚡
   # ♼ ☰ ☱ ☲ ☳ ☴ ☵ ☶ ☷ ✡ ✔ ✖ ✚ ✱ ✤ ✦ ❤ ➜ ➟ ➼ ✂ ✎ ✐ ⨀ ⨁ ⨂ ⨍ ⨎ ⨏ ⨷ ⩚
